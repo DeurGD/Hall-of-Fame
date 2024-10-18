@@ -1,8 +1,13 @@
+a {
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+}
+
 .header {    
     font-size: 34px;
     text-align: center;
     color: #ffffff;
-    font-family: "Oswald", serif;
+    font-family: "Moderustic", serif;
     font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
@@ -26,26 +31,7 @@ font-size: 12px;
   font-optical-sizing: auto;
   font-weight: 300;
   font-style: normal;
-  color: #b5aaff;
-  text-align: center;
-}
-
-.header-block {
-    margin-top: 10px;
-    border: 2px solid #ffffff;
-    border-radius: 5px;
-    weight: 95%;
-    height: 35px;
-}
-
-.search-text{
-  margin-top: 5px;
-  font-size: 12px;
-  font-family: "Comfortaa", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 300;
-  font-style: normal;
-  color: #6d677c;
+  color: #6a78ff;
   text-align: center;
 }
 
@@ -76,9 +62,10 @@ font-size: 12px;
     display: flex;
     flex-direction: row;
     margin-top: 25px;
-    border: 1.5px solid #ffffff;
-    border-radius: 5px;
+    border: 1px solid #8098ff3c;
+    border-radius: 10px;
     height: 100px;
+    background-color: #556dff10;
 }
 
 .photo2 {
@@ -88,7 +75,7 @@ font-size: 12px;
     background-repeat: no-repeat;
     margin-left: 5px;
     margin-top: 5px;
-    border-radius: 5px;
+    border-radius: 10px;
     height: 90px;
     width: 90px;
 }
@@ -100,7 +87,7 @@ font-size: 12px;
     background-repeat: no-repeat;
     margin-left: 5px;
     margin-top: 5px;
-    border-radius: 5px;
+    border-radius: 10px;
     height: 90px;
     width: 90px;
 }
@@ -121,3 +108,7 @@ font-size: 12px;
   text-align: center;
 }
 
+
+#top2 {
+    margin-top: 10px;
+}
