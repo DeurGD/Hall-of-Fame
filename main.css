@@ -80,6 +80,18 @@ font-size: 12px;
     width: 90px;
 }
 
+.photo3 {
+    display: flex;   
+    background-image: url("leva.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 5px;
+    margin-top: 5px;
+    border-radius: 10px;
+    height: 90px;
+    width: 90px;
+}
+
 .photo {
     display: flex;   
     background-image: url("pariev.jpg");
@@ -111,4 +123,15 @@ font-size: 12px;
 
 #top2 {
     margin-top: 10px;
+}
+
+.text-last {    
+    margin-top: 25px;
+    font-size: 14px;
+    text-align: center;
+    color: #8098ff69;
+    font-family: "Comfortaa", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
